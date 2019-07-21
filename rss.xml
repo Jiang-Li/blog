@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dynatic Data]]></title><description><![CDATA[Take notes of the fun and useful stuff.]]></description><link>https://jiang-li.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 20 Jul 2019 23:55:07 GMT</lastBuildDate><item><title><![CDATA[Often-used Scripts]]></title><description><![CDATA[I often use R, Python, SAS, SQL, and Bash in different
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dynatic Data]]></title><description><![CDATA[Take notes of the fun and useful stuff.]]></description><link>https://jiang-li.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 21 Jul 2019 00:46:46 GMT</lastBuildDate><item><title><![CDATA[Blogging by Gastby]]></title><description><![CDATA[Previously I used R’s BlogDown. But recently I used Python more and would like to switch a more general tool. The static site built by…]]></description><link>https://jiang-li.github.io//blogging_by_gastby/</link><guid isPermaLink="false">https://jiang-li.github.io//blogging_by_gastby/</guid><pubDate>Sat, 20 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Previously I used R’s BlogDown. But recently I used Python more and would like to switch a more general tool. The static site built by Gastby, which is powered by React, is pretty fast. So I decided to give a try. Here is the workflow of blogging:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the project folder, enter:
+&lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add new markdown file in the content/blog. I will prefer to build folder for each post, and compose a index.md inside the folder.&lt;/li&gt;
+&lt;li&gt;To deploy, run &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;p&gt;The blog is build based on Gatsby’s blog starter. &lt;/p&gt;
+&lt;p&gt;To create the template
+&lt;code class=&quot;language-text&quot;&gt;gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I added code highlighting and modified the bio. I also want Table of Contents, and will add it later.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Often-used Scripts]]></title><description><![CDATA[I often use R, Python, SAS, SQL, and Bash in different
 tasks at the same time. To make the switch between different languages easier, I…]]></description><link>https://jiang-li.github.io//commonly-used_scripts/</link><guid isPermaLink="false">https://jiang-li.github.io//commonly-used_scripts/</guid><pubDate>Tue, 06 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I often use R, Python, SAS, SQL, and Bash in different
 tasks at the same time. To make the switch between different languages easier, I built a list of the commonly-used script for a quick reference.&lt;/p&gt;
 &lt;p&gt;A simulated sample data set with missing values and duplicated values was used. &lt;/p&gt;
